@@ -3,8 +3,8 @@ package jwtkms
 import (
 	"testing"
 
+	"github.com/emilpriver/jwt-go-aws-kms/v2/jwtkms/internal/mockkms"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/matelang/jwt-go-aws-kms/v2/jwtkms/internal/mockkms"
 )
 
 func TestSigningMethod(t *testing.T) {

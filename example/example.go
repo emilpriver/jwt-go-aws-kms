@@ -7,8 +7,8 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/kms"
+	"github.com/emilpriver/jwt-go-aws-kms/v2/jwtkms"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/matelang/jwt-go-aws-kms/v2/jwtkms"
 )
 
 const keyID = "aa2f90bf-f09f-42b7-b4f3-2083bd00f9ad"
